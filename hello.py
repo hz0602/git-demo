@@ -6,6 +6,8 @@ def default():
         return
     if sys.argv[1] == "cat":
         print("meow")
+    elif sys.argv[1] == "dog":
+        print("wow")
     else:
         print("hello world")
 
