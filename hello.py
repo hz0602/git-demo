@@ -4,7 +4,10 @@ def default():
     if len(sys.argv) != 2:
         print("wrong usage")
         return
-    print("hello world")
+    if sys.argv[1] == "dog":
+        print("wow")
+    else:
+        print("hello world")
 
 def main():
     default()
