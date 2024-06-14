@@ -11,6 +11,12 @@ def default():
     else:
         print("hello world")
 
+def isOdd(num):
+    if num % 2 == 0:
+        print("It's a even")
+    else:
+        print("It's a odd")
+
 def main():
     default()
 
