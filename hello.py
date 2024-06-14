@@ -17,8 +17,15 @@ def isOdd(num):
     else:
         print("It's a odd")
 
+def calculateSum(num):
+    sum = 0
+    for i in range(num):
+        sum += i
+    print(sum)
+
+
 def main():
-    default()
+    calculateSum()
 
 if __name__ == "__main__":
     main()
